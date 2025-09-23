@@ -1,5 +1,6 @@
 .projects-wrapper {
   padding: 15px;
+  min-height: 350px;
 }
 
 .projects-wrapper p {
