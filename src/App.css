@@ -1,0 +1,8 @@
+.main-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 30px;
+  width: 100vw;
+  height: 100vh;
+}
