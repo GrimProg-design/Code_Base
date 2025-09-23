@@ -37,18 +37,18 @@
 }
 
 .stack-details {
-    margin-top: 15px;
-    width: 282px;
-    height: 196px;
-    background-color: #445c7d;
-    border-radius: 20px;
-    padding: 0 0 0 15px;
-    position: absolute;
+  margin-top: 15px;
+  width: 282px;
+  height: 196px;
+  background-color: #445c7d;
+  border-radius: 20px;
+  padding: 0 0 0 15px;
+  position: absolute;
 }
 
 .stack-details ul {
-    margin: 0;
-    margin-top: 10px;
+  margin: 0;
+  margin-top: 10px;
 }
 
 .logos-wrapper {
@@ -58,7 +58,7 @@
   box-sizing: border-box;
   overflow: hidden;
   border-radius: 50px;
-  box-shadow:  -3px -3px 7px #ffffff,  3px 3px 7px #000000;
+  box-shadow: -3px -3px 7px #ffffff, 3px 3px 7px #000000;
 }
 
 .logos-wrapper img {
@@ -71,15 +71,32 @@
 }
 
 #para {
-    margin-top: 30px;
+  margin-top: 30px;
+}
+
+.total-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 10px;
+}
+
+.links-wrappers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: -3px -3px 8px #b7c8e3, 3px 3px 8px #2c213b;
+}
+
+.links-wrappers:hover {
+  box-shadow: inset -3px -3px 8px #c7d9ea, inset 3px 3px 8px #232b30;
 }
 
 a {
-    color: #e2f9ff;
-}
-
-a:hover {
-    color: #a9bbbf;
+  color: #e2f9ff;
+  text-decoration: none;
 }
 
 @keyframes swing {

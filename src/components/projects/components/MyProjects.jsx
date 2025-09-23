@@ -1,9 +1,8 @@
 export default function MyProjects() {
   return (
     <div className="project-wrappers">
-      <ul>
-        <li>
-          <img src="" alt="" />
+      <div className="total-wrapper">
+        <div className="links-wrappers">
           <a
             href="https://grimprog-design.github.io/for-church/?page=home"
             target="_blank"
@@ -11,10 +10,9 @@ export default function MyProjects() {
           >
             Храм Покрова
           </a>
-        </li>
+        </div>
 
-        <li>
-          <img src="" alt="" />
+        <div className="links-wrappers">
           <a
             href="https://grimprog-design.github.io/Life_timer/"
             target="_blank"
@@ -22,30 +20,19 @@ export default function MyProjects() {
           >
             Live Timer
           </a>
-        </li>
+        </div>
 
-        <li>
-            <a
+        <div className="links-wrappers">
+          <a
             href="https://grimprog-design.github.io/gift-for-you/"
             target="_blank"
             rel="noopener noreferrer"
           >
             Gift-For-Sofi
           </a>
-        </li>
+        </div>
 
-        <li>
-            <a
-            href="https://grimprog-design.github.io/cake-for-sofi/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Cake-For-Sofi
-          </a>
-        </li>
-
-        <li>
-          <img src="" alt="" />
+        <div className="links-wrappers">
           <a
             href="https://grimprog-design.github.io/my-tic-tac-toe/"
             target="_blank"
@@ -53,10 +40,9 @@ export default function MyProjects() {
           >
             My-Tic-Tac-Toe
           </a>
-        </li>
+        </div>
 
-        <li>
-          <img src="" alt="" />
+        <div className="links-wrappers">
           <a
             href="https://www.npmjs.com/package/path-easy"
             target="_blank"
@@ -64,17 +50,18 @@ export default function MyProjects() {
           >
             Path_Easy
           </a>
-        </li>
+        </div>
 
-        <li>
-          <img src="" alt="" />
+        <div className="links-wrappers">
           <a
             href="https://grimprog-design.github.io/css-authorization/"
             target="_blank"
             rel="noopener noreferrer"
-          >CSS-Authorization</a>
-        </li>
-      </ul>
+          >
+            CSS-Authorization
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
