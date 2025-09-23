@@ -19,11 +19,11 @@
   display: flex;
   align-items: center;
   width: 300px;
-  height: 60px;
-  background-color: #5b457b;
+  height: 61px;
+  background-color: #a5a9af;
   border-radius: 50px;
   margin-top: 10px;
-  box-shadow: inset -3px -3px 7px #b469dc, inset 3px 3px 7px #403057;
+  box-shadow: inset -3px -3px 7px #e6ebf2, inset 3px 3px 7px #000000;
   position: relative;
   gap: 8px;
   overflow: hidden;
@@ -37,15 +37,12 @@
 }
 
 .stack-details {
-    width: 275px;
+    margin-top: 15px;
+    width: 272px;
     background-color: #46375c;
     border-radius: 20px;
-    padding: 15px;
+    padding: 0 15px 0 15px;
     position: absolute;
-}
-
-.stack-details p{
-    font-size: 1em;
 }
 
 .logos-wrapper {
@@ -55,7 +52,7 @@
   box-sizing: border-box;
   overflow: hidden;
   border-radius: 50px;
-  box-shadow:  -3px -3px 7px #b469dc,  3px 3px 7px #403057;
+  box-shadow:  -3px -3px 7px #ffffff,  3px 3px 7px #000000;
 }
 
 .logos-wrapper img {
@@ -67,6 +64,9 @@
   left: 0;
 }
 
+#para {
+    margin-top: 30px;
+}
 
 @keyframes swing {
   0% {

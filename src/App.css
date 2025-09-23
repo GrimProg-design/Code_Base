@@ -13,10 +13,10 @@
 
 .boxes-wrapper {
   border-radius: 20px;
-  background-color: #5b457b;
+  background-color: #5f81af;
   box-shadow: 
-    -5px -5px 12px #b469dc,
-     5px 5px 12px #403057
+    -5px -5px 12px #b7c8e3,
+     5px 5px 12px #2c213b
   ;
   transition: transform 0.4s ease;
 }
@@ -46,7 +46,7 @@
 
 .photo-wrapper {
   box-shadow: 
-    -5px -5px 9px #b469dc,
-     5px 5px 9px #403057
+    -5px -5px 9px #b7c8e3,
+     5px 5px 9px #2c213b
   ;
 }

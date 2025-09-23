@@ -6,7 +6,7 @@ export default function Profile(){
         <div className="boxes-wrapper profile-wrapper">
             <Avatar
                 alt="Фото Вавилова Ильи"
-                caption="Вавилов Илья"
+                caption="Vavilov Ilia"
             />
         </div>
     )

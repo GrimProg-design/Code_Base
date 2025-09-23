@@ -8,7 +8,7 @@ export default function Avatar({ alt, caption }) {
       </figure>
       <div className="figurecaption-wrapper">
         <figcaption className="photo-caption">{caption}</figcaption>
-        <p>19 лет</p>
+        <p>19 years old</p>
       </div>
       <p>FullStack developer</p>
     </div>
