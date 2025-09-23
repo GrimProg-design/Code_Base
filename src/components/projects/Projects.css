@@ -86,13 +86,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5px;
+  padding: 7px;
   border-radius: 10px;
-  box-shadow: -3px -3px 8px #b7c8e3, 3px 3px 8px #2c213b;
+  box-shadow: -3px -3px 8px #c2cee1, 3px 3px 8px #2c213b;
+  background-color: #617188;
 }
 
 .links-wrappers:hover {
-  box-shadow: inset -3px -3px 8px #c7d9ea, inset 3px 3px 8px #232b30;
+  box-shadow: inset -3px -3px 8px #c3dbf1, inset 3px 3px 8px #0c2127;
 }
 
 a {
