@@ -36,7 +36,7 @@ export default function MyProjects() {
 
         <li>
             <a
-            href=" https://grimprog-design.github.io/cake-for-sofi/"
+            href="https://grimprog-design.github.io/cake-for-sofi/"
             target="_blank"
             rel="noopener noreferrer"
           >
