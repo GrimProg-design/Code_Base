@@ -38,11 +38,17 @@
 
 .stack-details {
     margin-top: 15px;
-    width: 272px;
-    background-color: #46375c;
+    width: 282px;
+    height: 196px;
+    background-color: #445c7d;
     border-radius: 20px;
-    padding: 0 15px 0 15px;
+    padding: 0 0 0 15px;
     position: absolute;
+}
+
+.stack-details ul {
+    margin: 0;
+    margin-top: 10px;
 }
 
 .logos-wrapper {
@@ -66,6 +72,14 @@
 
 #para {
     margin-top: 30px;
+}
+
+a {
+    color: #e2f9ff;
+}
+
+a:hover {
+    color: #a9bbbf;
 }
 
 @keyframes swing {
