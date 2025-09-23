@@ -6,3 +6,12 @@
   width: 100vw;
   height: 100vh;
 }
+
+.boxes-wrapper {
+  border-radius: 20px;
+  background-color: #5b457b;
+  box-shadow: 
+    -5px -5px 12px #b469dc,
+     5px 5px 12px #403057
+  ;
+}
