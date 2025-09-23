@@ -36,3 +36,10 @@
   grid-column: 4;
   grid-row: 1/3;
 }
+
+.photo-wrapper {
+  box-shadow: 
+    -5px -5px 9px #b469dc,
+     5px 5px 9px #403057
+  ;
+}
