@@ -14,6 +14,14 @@ export default function InfoHeader() {
           value="Подробно о навыках"
           path="/more"
         />
+        <Buttons
+          value="Узучаю"
+          path="/learn"
+        />
+        <Buttons
+          value="Мой путь"
+          path="/way"
+        />
       </nav>
     </div>
   );
