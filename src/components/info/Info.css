@@ -1,0 +1,24 @@
+.info-wrapper {
+  padding: 15px;
+}
+
+.info-wrapper h1 {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.about-wrapper {
+    text-wrap: wrap;
+  max-height: 300px;
+  overflow-y: auto;
+  padding-right: 10px;
+  max-height: 250px;
+  margin-top: 15px;
+  border-radius: 15px;
+}
