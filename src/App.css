@@ -13,12 +13,10 @@
 
 .boxes-wrapper {
   border-radius: 20px;
-  background-color: #5f81af;
-  box-shadow: 
-    -5px -5px 12px #b7c8e3,
-     5px 5px 12px #2c213b
-  ;
   transition: transform 0.4s ease;
+  transition: 0.3s;
+  background-color: #5f81af;
+  box-shadow: -5px -5px 12px #b7c8e3, 5px 5px 12px #2c213b;
 }
 
 .boxes-wrapper:hover {
@@ -45,8 +43,27 @@
 }
 
 .photo-wrapper {
-  box-shadow: 
-    -5px -5px 9px #b7c8e3,
-     5px 5px 9px #2c213b
-  ;
+  box-shadow: -5px -5px 9px #b7c8e3, 5px 5px 9px #2c213b;
 }
+
+/* dark mode */
+.boxes-wrapper.dark {
+  background-color: #646464;
+  box-shadow: -5px -5px 12px #c0c0c0, 5px 5px 12px #282828;
+}
+
+.photo-wrapper.dark {
+  box-shadow: -5px -5px 12px #c0c0c0, 5px 5px 12px #282828;
+}
+/* __________ */
+
+/* light mode */
+.boxes-wrapper.light {
+  background-color: #d6d6d6;
+  box-shadow: -5px -5px 12px #ffffff, 5px 5px 12px #3c3c3c;
+}
+
+.photo-wrapper.light {
+  box-shadow: -5px -5px 12px #ffffff, 5px 5px 12px #3c3c3c;
+}
+/* __________ */

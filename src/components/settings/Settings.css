@@ -5,12 +5,22 @@
 .settings-wrapper p{
     margin: 0;
     font-size: 2em;
+    margin-bottom: 10px;
 }
 
 .switch-wrapper {
     display: flex;
     flex-direction: column;
     gap: 5px;
+}
+
+.container-for-switch {
+  display: flex;
+  justify-content: end;
+}
+
+.container-for-switch label:nth-child(2) {
+  margin-left: 20px;
 }
 
 .switch {

@@ -1,8 +1,7 @@
+import Switch from "./Switch"
+
 export default function DarkMode() {
     return (
-        <label class="switch">
-            <input type="checkbox"/>
-            <span class="slider round"></span>
-        </label>
+        <Switch/>
     )
 }
