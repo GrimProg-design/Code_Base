@@ -1,0 +1,13 @@
+.contacts-wrapper {
+    padding: 15px;
+}
+
+.contacts-wrapper h1 {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.contacts-links {
+    margin: 15px;
+    width: 14vw;
+}
