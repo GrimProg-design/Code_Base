@@ -14,11 +14,34 @@
 }
 
 .about-wrapper {
-    text-wrap: wrap;
+  box-sizing: border-box;
+  text-wrap: wrap;
   max-height: 300px;
-  overflow-y: auto;
   padding-right: 10px;
   max-height: 250px;
   margin-top: 15px;
   border-radius: 15px;
+  max-height: 250px;
+  overflow-y: auto;
+  padding: 10px;
+  box-shadow: inset -5px -5px 12px #b7c8e3, inset 5px 5px 12px #2c213b;
+  transition: .3s;
+}
+
+.about-wrapper::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.about-wrapper {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.about-wrapper.dark {
+   box-shadow: inset -5px -5px 12px #c0c0c0, inset 5px 5px 12px #282828; 
+}
+
+.about-wrapper.light {
+    box-shadow: inset -5px -5px 12px #ffffff, inset 5px 5px 12px #3c3c3c;
 }

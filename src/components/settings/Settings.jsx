@@ -43,6 +43,12 @@ export default function Settings() {
     if (index === 0) photo.classList.add("base");
     if (index === 1) photo.classList.add("dark");
     if (index === 2) photo.classList.add("light");
+
+    const about = document.querySelector(".about-wrapper");
+    about.classList.remove("base", "dark", "light")
+    if (index === 0) about.classList.add("base");
+    if (index === 1) about.classList.add("dark");
+    if (index === 2) about.classList.add("light");
   };
 
   return (
