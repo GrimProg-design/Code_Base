@@ -137,7 +137,7 @@ a {
 
 .links-wrappers.light {
   background-color: #7e7e7e;
-  color: black;
+  color: rgb(255, 255, 255);
   box-shadow: -5px -5px 12px #ffffff, 5px 5px 12px #000000;
 }
 
